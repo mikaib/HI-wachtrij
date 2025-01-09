@@ -4,6 +4,7 @@ import pyfirmata2
 PARK_NAME = "Lake Side Mania"
 RIDE_NAME = "Log Flume"
 QUEUE_CAPACITY = 100
+WINDOW_SIZE = 30
 SLAVE_PORTS = ["COM5"]
 
 # commandos
