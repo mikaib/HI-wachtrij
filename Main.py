@@ -10,7 +10,7 @@ from SlaveDevice import SlaveDevice
 from Logger import log_info, log_warning, log_debug
 
 devices = []
-queue = Queue()
+queue = Queue(Constants.WINDOW_SIZE)
 events = Events()
 
 for port in Constants.SLAVE_PORTS:
